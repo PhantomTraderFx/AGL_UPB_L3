@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.gluonhq.charm.glisten.control.CardPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="629.0" prefWidth="905.0" style="-fx-background-color: #91A5D5; -fx-background-color: ;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" />
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="629.0" prefWidth="905.0" style="-fx-background-color: #E4E9F4; -fx-background-color: ;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="285.0">
+         <children>
+            <ImageView fitHeight="629.0" fitWidth="620.0">
+               <image>
+                  <Image url="@../../../../../Documents/concierge/img-faciliter-la-vie-des-commerciaux-avec-la-conciergerie-d-entreprise.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Text fill="#5e3b3b" layoutX="14.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GESTION DE CONCIERGERIE SOFTWARE" wrappingWidth="251.73674392700195">
+         <font>
+            <Font name="Dosis Bold" size="33.0" />
+         </font>
+      </Text>
+      <Text fill="#5e3b3b" layoutX="14.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU" wrappingWidth="66.06641006469727">
+         <font>
+            <Font name="Dosis Bold" size="19.0" />
+         </font>
+      </Text>
+      <CardPane layoutX="-1.0" layoutY="189.0" prefHeight="442.0" prefWidth="286.0">
+          <Label style="-fx-padding:10;" text="Enregistrer Etudiants" textFill="#632323" />
+          <Label style="-fx-padding:10;" text="Enregistrer Parents" textFill="#632323" />
+          <Label style="-fx-padding:10;" text="Enregistrer commandes" textFill="#632323" />
+         <Label style="-fx-padding:10;" text="Liste des sortis en cours" textFill="#632323" />
+         <Label style="-fx-padding:10;" text="Historique des sorties" textFill="#632323" />
+      </CardPane>
+      <Label layoutX="14.0" layoutY="13.0" prefHeight="12.0" prefWidth="266.0" text="GROUPE 5 LICENECE 3 TD1 MONSIEUR KERANDEL" textFill="#564545">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
