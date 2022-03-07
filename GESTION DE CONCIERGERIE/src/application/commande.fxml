@@ -3,8 +3,8 @@
 <?import com.gluonhq.charm.glisten.control.CardPane?>
 <?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TreeTableColumn?>
-<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -14,9 +14,9 @@
 
 <AnchorPane prefHeight="646.0" prefWidth="920.0" style="-fx-background-color: #E4E9F4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17">
    <children>
-      <Text fill="#5e3b3b" layoutX="15.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GESTION DE CONCIERGERIE SOFTWARE" wrappingWidth="251.73674392700195">
+      <Text fill="#5e3b3b" layoutX="15.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="APPLICATION DE GESTION DE LA CITE UNIVERSITAIRE" wrappingWidth="223.73675918579102">
          <font>
-            <Font name="Dosis Bold" size="33.0" />
+            <Font name="Dosis Bold" size="27.0" />
          </font>
       </Text>
       <Text fill="#5e3b3b" layoutX="15.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU" wrappingWidth="66.06641006469727">
@@ -60,14 +60,14 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
-      <TreeTableView layoutX="295.0" layoutY="406.0" prefHeight="227.0" prefWidth="626.0">
+      <TableView layoutX="292.0" layoutY="408.0" prefHeight="230.0" prefWidth="632.0">
         <columns>
-          <TreeTableColumn prefWidth="152.00006103515625" text="NOM ET PRENOMS" />
-          <TreeTableColumn prefWidth="123.99993896484375" text="JOUR" />
-            <TreeTableColumn prefWidth="135.20001220703125" text="REPAS" />
-            <TreeTableColumn prefWidth="110.4000244140625" text="MENU" />
-            <TreeTableColumn prefWidth="110.4000244140625" text="STATUT" />
+          <TableColumn prefWidth="143.20001220703125" text="NOM ET PRENOMS" />
+          <TableColumn minWidth="7.20001220703125" prefWidth="97.5999755859375" text="MIDI" />
+            <TableColumn prefWidth="84.0" text="SOIR" />
+            <TableColumn prefWidth="94.4000244140625" text="STATUT MIDI" />
+            <TableColumn prefWidth="102.39990234375" text="STATUT SOIR" />
         </columns>
-      </TreeTableView>
+      </TableView>
    </children>
 </AnchorPane>

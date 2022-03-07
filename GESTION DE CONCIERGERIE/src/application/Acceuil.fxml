@@ -13,11 +13,6 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="629.0" prefWidth="905.0" style="-fx-background-color: #E4E9F4; -fx-background-color: ;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Pane layoutX="285.0" />
-      <Text fill="#5e3b3b" layoutX="14.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GESTION DE CONCIERGERIE SOFTWARE" wrappingWidth="251.73674392700195">
-         <font>
-            <Font name="Dosis Bold" size="33.0" />
-         </font>
-      </Text>
       <Text fill="#5e3b3b" layoutX="14.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU" wrappingWidth="66.06641006469727">
          <font>
             <Font name="Dosis Bold" size="19.0" />
@@ -40,5 +35,10 @@
             <Image url="@images/acceui.jpg" />
          </image>
       </ImageView>
+      <Text fill="#5e3b3b" layoutX="14.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="APPLICATION DE GESTION DE LA CITE UNIVERSITAIRE" wrappingWidth="223.73675918579102">
+         <font>
+            <Font name="Dosis Bold" size="27.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>
