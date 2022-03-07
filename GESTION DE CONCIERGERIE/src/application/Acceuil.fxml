@@ -12,15 +12,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="629.0" prefWidth="905.0" style="-fx-background-color: #E4E9F4; -fx-background-color: ;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane layoutX="285.0">
-         <children>
-            <ImageView fitHeight="629.0" fitWidth="620.0">
-               <image>
-                  <Image url="@../../../../../Documents/concierge/img-faciliter-la-vie-des-commerciaux-avec-la-conciergerie-d-entreprise.jpg" />
-               </image>
-            </ImageView>
-         </children>
-      </Pane>
+      <Pane layoutX="285.0" />
       <Text fill="#5e3b3b" layoutX="14.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GESTION DE CONCIERGERIE SOFTWARE" wrappingWidth="251.73674392700195">
          <font>
             <Font name="Dosis Bold" size="33.0" />
@@ -31,7 +23,7 @@
             <Font name="Dosis Bold" size="19.0" />
          </font>
       </Text>
-      <CardPane layoutX="-1.0" layoutY="189.0" prefHeight="442.0" prefWidth="286.0">
+      <CardPane layoutX="-1.0" layoutY="189.0" prefHeight="440.0" prefWidth="286.0">
           <Label style="-fx-padding:10;" text="Enregistrer Etudiants" textFill="#632323" />
           <Label style="-fx-padding:10;" text="Enregistrer Parents" textFill="#632323" />
           <Label style="-fx-padding:10;" text="Enregistrer commandes" textFill="#632323" />
@@ -43,5 +35,10 @@
             <Font name="System Bold" size="11.0" />
          </font>
       </Label>
+      <ImageView fitHeight="629.0" fitWidth="620.0" layoutX="285.0">
+         <image>
+            <Image url="@images/acceui.jpg" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>

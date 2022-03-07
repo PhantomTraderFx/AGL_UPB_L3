@@ -1,8 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.gluonhq.charm.glisten.control.CardPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+
+<AnchorPane prefHeight="646.0" prefWidth="920.0" style="-fx-background-color: #E4E9F4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17">
+   <children>
+      <ImageView fitHeight="402.0" fitWidth="640.0" layoutX="286.0" layoutY="-65.0">
+         <image>
+            <Image url="@../../../../../Documents/concierge/AdobeStock_138206162.jpeg-Visionneuse-de-photos-Windows.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#5e3b3b" layoutX="15.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GESTION DE CONCIERGERIE SOFTWARE" wrappingWidth="251.73674392700195">
+         <font>
+            <Font name="Dosis Bold" size="33.0" />
+         </font>
+      </Text>
+      <Text fill="#5e3b3b" layoutX="15.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU" wrappingWidth="66.06641006469727">
+         <font>
+            <Font name="Dosis Bold" size="19.0" />
+         </font>
+      </Text>
+      <CardPane layoutY="203.0" prefHeight="442.0" prefWidth="286.0">
+         <items>
+            <Label style="-fx-padding:10;" text="Enregistrer Etudiants" textFill="#632323" />
+            <Label style="-fx-padding:10;" text="Enregistrer Parents" textFill="#632323" />
+            <Label style="-fx-padding:10;" text="Enregistrer commandes" textFill="#632323" />
+            <Label style="-fx-padding:10;" text="Liste des sortis en cours" textFill="#632323" />
+            <Label style="-fx-padding:10;" text="Historique des sorties" textFill="#632323" />
+         </items>
+      </CardPane>
+      <Label layoutX="15.0" layoutY="28.0" prefHeight="12.0" prefWidth="266.0" text="GROUPE 5 LICENECE 3 TD1 MONSIEUR KERANDEL" textFill="#564545">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="294.0" layoutY="289.0" text="RENTRER UNE COMMANDE" textFill="#3e3939">
+         <font>
+            <Font name="Dosis Regular" size="36.0" />
+         </font>
+      </Label>
+   </children>
 </AnchorPane>
-
