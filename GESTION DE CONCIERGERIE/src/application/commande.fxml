@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.gluonhq.charm.glisten.control.CardPane?>
+<?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.control.TreeTableView?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -11,11 +14,6 @@
 
 <AnchorPane prefHeight="646.0" prefWidth="920.0" style="-fx-background-color: #E4E9F4;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17">
    <children>
-      <ImageView fitHeight="402.0" fitWidth="640.0" layoutX="286.0" layoutY="-65.0">
-         <image>
-            <Image url="@../../../../../Documents/concierge/AdobeStock_138206162.jpeg-Visionneuse-de-photos-Windows.jpg" />
-         </image>
-      </ImageView>
       <Text fill="#5e3b3b" layoutX="15.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GESTION DE CONCIERGERIE SOFTWARE" wrappingWidth="251.73674392700195">
          <font>
             <Font name="Dosis Bold" size="33.0" />
@@ -26,7 +24,7 @@
             <Font name="Dosis Bold" size="19.0" />
          </font>
       </Text>
-      <CardPane layoutY="203.0" prefHeight="442.0" prefWidth="286.0">
+      <CardPane layoutX="-2.0" layoutY="203.0" prefHeight="442.0" prefWidth="286.0">
          <items>
             <Label style="-fx-padding:10;" text="Enregistrer Etudiants" textFill="#632323" />
             <Label style="-fx-padding:10;" text="Enregistrer Parents" textFill="#632323" />
@@ -40,10 +38,36 @@
             <Font name="System Bold" size="11.0" />
          </font>
       </Label>
-      <Label layoutX="294.0" layoutY="289.0" text="RENTRER UNE COMMANDE" textFill="#3e3939">
+      <ImageView fitHeight="337.0" fitWidth="646.0" layoutX="284.0" layoutY="-1.0">
+         <image>
+            <Image url="@images/commande.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="294.0" layoutY="289.0" text="RENTRER UNE COMMANDE" textFill="#562d2d">
          <font>
             <Font name="Dosis Regular" size="36.0" />
          </font>
       </Label>
+      <ChoiceBox layoutX="390.0" layoutY="356.0" prefWidth="150.0" />
+      <ChoiceBox layoutX="717.0" layoutY="356.0" prefWidth="150.0" />
+      <Label layoutX="339.0" layoutY="360.0" text="PALIER" textFill="#5e3e3e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="634.0" layoutY="360.0" text="CHAMBRE" textFill="#5e3e3e">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TreeTableView layoutX="295.0" layoutY="406.0" prefHeight="227.0" prefWidth="626.0">
+        <columns>
+          <TreeTableColumn prefWidth="152.00006103515625" text="NOM ET PRENOMS" />
+          <TreeTableColumn prefWidth="123.99993896484375" text="JOUR" />
+            <TreeTableColumn prefWidth="135.20001220703125" text="REPAS" />
+            <TreeTableColumn prefWidth="110.4000244140625" text="MENU" />
+            <TreeTableColumn prefWidth="110.4000244140625" text="STATUT" />
+        </columns>
+      </TreeTableView>
    </children>
 </AnchorPane>
