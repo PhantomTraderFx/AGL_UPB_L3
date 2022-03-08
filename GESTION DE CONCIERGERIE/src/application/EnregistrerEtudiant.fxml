@@ -1,8 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.gluonhq.charm.glisten.control.CardPane?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+<AnchorPane prefHeight="642.0" prefWidth="804.0" style="-fx-border-color: red;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="295.0" layoutY="10.0" />
+      <Text fill="#5e3b3b" layoutX="26.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GESTION DE CONCIERGERIE SOFTWARE" wrappingWidth="251.73674392700195">
+         <font>
+            <Font name="Dosis Bold" size="33.0" />
+         </font>
+      </Text>
+      <Text fill="#5e3b3b" layoutX="24.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU" wrappingWidth="66.06641006469727">
+         <font>
+            <Font name="Dosis Bold" size="19.0" />
+         </font>
+      </Text>
+      <CardPane layoutX="9.0" layoutY="199.0" prefHeight="440.0" prefWidth="286.0">
+         <items>
+            <Label style="-fx-padding:10;" text="Enregistrer Etudiants" textFill="#632323" />
+            <Label style="-fx-padding:10;" text="Enregistrer Parents" textFill="#632323" />
+            <Label style="-fx-padding:10;" text="Enregistrer commandes" textFill="#632323" />
+            <Label style="-fx-padding:10;" text="Liste des sortis en cours" textFill="#632323" />
+            <Label style="-fx-padding:10;" text="Historique des sorties" textFill="#632323" />
+         </items>
+      </CardPane>
+      <Label layoutX="24.0" layoutY="23.0" prefHeight="12.0" prefWidth="266.0" text="GROUPE 5 LICENECE 3 TD1 MONSIEUR KERANDEL" textFill="#564545">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="340.0" layoutY="82.0" prefHeight="48.0" prefWidth="442.0" text="ENREGISTRER LES ENTREE ET SORTIR DES ETUDIANTS " textAlignment="RIGHT" textFill="#e33012">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="64.0" fitWidth="265.0" layoutX="405.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/imgEtudiant.jpg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="378.0" layoutY="205.0">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="402.0" layoutY="254.0" />
+      <TextField layoutX="343.0" layoutY="294.0" prefHeight="30.0" prefWidth="194.0" promptText="Lieu Sortir">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="605.0" layoutY="294.0" promptText="Heure Sortir" />
+      <Label layoutX="340.0" layoutY="208.0" text="NOM" />
+      <Label layoutX="343.0" layoutY="258.0" prefHeight="18.0" prefWidth="59.0" text="PRENOM" />
+      <Label layoutX="342.0" layoutY="348.0" text="Palier" />
+      <TextField layoutX="605.0" layoutY="391.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="378.0" layoutY="344.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Label layoutX="492.0" layoutY="395.0" text="Numéro Chambre" />
+      <TextField layoutX="326.0" layoutY="478.0" prefHeight="26.0" prefWidth="165.0" promptText="Numéro De Telephone">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="598.0" layoutY="478.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Label layoutX="561.0" layoutY="482.0" text="Email" />
+      <Button layoutX="681.0" layoutY="568.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="108.0" style="-fx-background-color: #c92121e3; -fx-border-color: #1293e3;" text="ENREGISTRER" textFill="#3655cf">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <Reflection fraction="1.0" topOpacity="0.35" />
+         </effect>
+      </Button>
+      <AnchorPane layoutX="288.0" prefHeight="640.0" prefWidth="12.0" style="-fx-background-color: #c92121e3;" />
+      <AnchorPane layoutX="300.0" layoutY="70.0" prefHeight="1.0" prefWidth="526.0" style="-fx-background-color: #0878e0a9;" />
+   </children>
 </AnchorPane>
-

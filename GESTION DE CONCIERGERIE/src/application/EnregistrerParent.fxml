@@ -1,8 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.gluonhq.charm.glisten.control.CardPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="629.0" prefWidth="905.0" style="-fx-background-color: #E4E9F4; -fx-border-color: red;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="285.0" AnchorPane.bottomAnchor="628.0" AnchorPane.leftAnchor="284.0" AnchorPane.rightAnchor="620.0" AnchorPane.topAnchor="0.0" />
+      <Text fill="#5e3b3b" layoutX="14.0" layoutY="56.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GESTION DE CONCIERGERIE SOFTWARE" wrappingWidth="251.73674392700195">
+         <font>
+            <Font name="Dosis Bold" size="33.0" />
+         </font>
+      </Text>
+      <Text fill="#5e3b3b" layoutX="14.0" layoutY="184.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MENU" wrappingWidth="66.06641006469727">
+         <font>
+            <Font name="Dosis Bold" size="19.0" />
+         </font>
+      </Text>
+      <CardPane layoutX="2.0" layoutY="189.0" prefHeight="438.0" prefWidth="283.0">
+          <Label style="-fx-padding:10;" text="Enregistrer Etudiants" textFill="#632323" />
+          <Label style="-fx-padding:10;" text="Enregistrer Parents" textFill="#632323" />
+          <Label style="-fx-padding:10;" text="Enregistrer commandes" textFill="#632323" />
+         <Label style="-fx-padding:10;" text="Liste des sortis en cours" textFill="#632323" />
+         <Label style="-fx-padding:10;" text="Historique des sorties" textFill="#632323" />
+         <ImageView fitHeight="171.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@images/parent3.jpg" />
+            </image>
+         </ImageView>
+      </CardPane>
+      <Label layoutX="14.0" layoutY="13.0" prefHeight="12.0" prefWidth="266.0" text="GROUPE 5 LICENECE 3 TD1 MONSIEUR KERANDEL" textFill="#564545">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="284.0" layoutY="94.0" opacity="0.62" prefHeight="531.0" prefWidth="615.0" style="-fx-background-color: #E4E9F4; -fx-border-color: #5e3b3b; -fx-border-radius: 25;" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="283.0" AnchorPane.rightAnchor="7.0" AnchorPane.topAnchor="93.0">
+         <children>
+            <Label layoutX="53.0" layoutY="98.0" prefHeight="23.0" prefWidth="40.0" text="Nom" AnchorPane.bottomAnchor="409.0" AnchorPane.leftAnchor="52.0" AnchorPane.rightAnchor="521.0" AnchorPane.topAnchor="97.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField layoutX="93.0" layoutY="92.0" prefHeight="26.0" prefWidth="127.0" />
+            <Label layoutX="38.0" layoutY="144.0" prefHeight="23.0" prefWidth="66.0" text="Prenoms">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField layoutX="119.0" layoutY="142.0" prefHeight="26.0" prefWidth="127.0" />
+            <TextField layoutX="96.0" layoutY="264.0" prefHeight="26.0" prefWidth="127.0" />
+            <TextField layoutX="266.0" layoutY="203.0" prefHeight="26.0" prefWidth="127.0" />
+            <TextField layoutX="291.0" layoutY="309.0" prefHeight="26.0" prefWidth="127.0" />
+            <Label layoutX="220.0" layoutY="204.0" prefHeight="23.0" prefWidth="40.0" text="Email">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="44.0" layoutY="266.0" prefHeight="23.0" prefWidth="52.0" text="Contact">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="214.0" layoutY="310.0" prefHeight="23.0" prefWidth="66.0" text="Prent De">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="419.0" layoutY="406.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="102.0" style="-fx-background-color: #a42121;" text="ENREGISTRER" textFill="#a42121" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="438.0" layoutY="42.0" prefHeight="39.0" prefWidth="355.0" text="ENREGISTRER PARENTS DE L'ETUDIANT" textFill="#a42121" AnchorPane.bottomAnchor="552.8" AnchorPane.leftAnchor="438.0" AnchorPane.rightAnchor="116.80000000000007" AnchorPane.topAnchor="42.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
 </AnchorPane>
-
