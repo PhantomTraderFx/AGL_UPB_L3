@@ -50,42 +50,12 @@
             <Image url="@images/imgEtudiant.jpg" />
          </image>
       </ImageView>
-      <TextField layoutX="378.0" layoutY="205.0">
-         <font>
-            <Font size="48.0" />
-         </font>
-      </TextField>
       <TextField layoutX="402.0" layoutY="254.0" />
-      <TextField layoutX="343.0" layoutY="294.0" prefHeight="30.0" prefWidth="194.0" promptText="Lieu Sortir">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </TextField>
-      <TextField layoutX="605.0" layoutY="294.0" promptText="Heure Sortir" />
+      <TextField layoutX="391.0" layoutY="344.0" promptText="Heure Sortir" />
       <Label layoutX="340.0" layoutY="208.0" text="NOM" />
       <Label layoutX="343.0" layoutY="258.0" prefHeight="18.0" prefWidth="59.0" text="PRENOM" />
       <Label layoutX="342.0" layoutY="348.0" text="Palier" />
-      <TextField layoutX="605.0" layoutY="391.0">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </TextField>
-      <TextField layoutX="378.0" layoutY="344.0">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </TextField>
       <Label layoutX="492.0" layoutY="395.0" text="Numéro Chambre" />
-      <TextField layoutX="326.0" layoutY="478.0" prefHeight="26.0" prefWidth="165.0" promptText="Numéro De Telephone">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </TextField>
-      <TextField layoutX="598.0" layoutY="478.0">
-         <font>
-            <Font size="24.0" />
-         </font>
-      </TextField>
       <Label layoutX="561.0" layoutY="482.0" text="Email" />
       <Button layoutX="681.0" layoutY="568.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="108.0" style="-fx-background-color: #c92121e3; -fx-border-color: #1293e3;" text="ENREGISTRER" textFill="#3655cf">
          <cursor>
@@ -97,5 +67,8 @@
       </Button>
       <AnchorPane layoutX="288.0" prefHeight="640.0" prefWidth="12.0" style="-fx-background-color: #c92121e3;" />
       <AnchorPane layoutX="300.0" layoutY="70.0" prefHeight="1.0" prefWidth="526.0" style="-fx-background-color: #0878e0a9;" />
+      <TextField layoutX="402.0" layoutY="204.0" />
+      <TextField layoutX="633.0" layoutY="391.0" />
+      <TextField layoutX="633.0" layoutY="478.0" />
    </children>
 </AnchorPane>
